@@ -1,0 +1,39 @@
+{
+  "name": "english",
+  "glyphs": [
+    {
+      "symbol": "a",
+      "followers": [
+        {
+          "glyph": "b",
+          "start": true,
+          "middle": true,
+          "end": false
+        }
+      ],
+      "double": {
+        "start": false,
+        "middle": false,
+        "end": false
+      },
+      "maxOccurences": 3
+    },
+    {
+      "symbol": "b",
+      "followers": [
+        {
+          "glyph": "a",
+          "start": true,
+          "middle": true,
+          "end": true
+        }
+      ],
+      "double": {
+        "start": false,
+        "middle": false,
+        "end": false
+      },
+      "maxOccurences": 2
+    }
+  ]
+}

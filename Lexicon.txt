@@ -1,0 +1,22 @@
+{
+    "name": string,
+    "glyphs": [
+        {
+            "symbol": string,
+            "followers": [
+                {
+                    "glyph": string,
+                    "start": bool,
+                    "middle": bool,
+                    "end": bool
+                }
+            ],
+            "double": {
+                "start": bool,
+                "middle": bool,
+                "end": bool
+            },
+            "maxOccurences": int
+        }
+    ]
+}
