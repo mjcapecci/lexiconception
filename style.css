@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 2rem;
+  width: 75vw;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.glyph {
+  color: black;
+}
+
+.doubleOptions {
+  color: blue;
+}
+
+.followers {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.followerOptions {
+  margin: 1rem;
+}
